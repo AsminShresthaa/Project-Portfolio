@@ -1,0 +1,57 @@
+.Contact-container{
+    text-align: center;
+    width: 80%;
+    max-width:1000px;
+    padding: 30px;
+    margin-top: 150px;
+    margin-left: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.Contact-heading-container{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    margin: 40px 0;
+    
+}
+.Contact-heading-container::before,
+.Contact-heading-container::after {
+    content: "";
+    border-bottom: 2px solid black;
+    margin: 0 10px;
+}
+.Contact-heading {
+    margin: 0;
+    text-align: center;
+}
+
+.describe{
+    margin: 30px 0px;
+}
+
+.button1{
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: black;
+    cursor: pointer;
+    
+}
+
+.button1:hover{
+    background-color: red;
+    color:black;
+}
+
+
+.footer {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: lightgray;
+    text-align: center;
+    margin-left: 100px;
+}
